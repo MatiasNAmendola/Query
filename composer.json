@@ -1,0 +1,27 @@
+{
+	"name": "query/query",
+	"type": "library",
+	"description": "SQL query generator",
+	"keywords": ["sql", "query"],
+	"license": "AGPL-3.0",
+	"authors": [
+		{
+			"name": "Oscar Otero",
+			"email": "oom@oscarotero.com",
+			"homepage": "http://oscarotero.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "oom@oscarotero.com",
+		"issues": "https://github.com/oscarotero/Query/issues"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Query": ""
+		}
+	}
+}
